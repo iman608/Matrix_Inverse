@@ -1,13 +1,27 @@
-# Matrix Inverse (Gauss–Jordan Elimination) — Python + NumPy
+# Matrix Inverse using Gauss–Jordan Elimination
 
-This project computes the inverse of a square matrix using **Gauss–Jordan elimination** (elementary row operations).  
-The same row operations are applied to an identity matrix to produce the inverse.
+This project is a **university-level implementation** of matrix inversion using the **Gauss–Jordan elimination method**.
+The goal of this project is to demonstrate a clear understanding of linear algebra concepts and elementary row operations.
+
+## Project Description
+The program computes the inverse of a square matrix by transforming the original matrix into the identity matrix using elementary row operations.
+The same operations are simultaneously applied to an identity matrix to obtain the inverse.
+
+The implementation focuses on correctness, clarity, and numerical stability.
+
+## Algorithm
+- Gauss–Jordan elimination
+- Elementary row operations:
+  - Row swapping
+  - Row scaling
+  - Row replacement
+- Partial pivoting is used when necessary to avoid zero or near-zero pivots
 
 ## Features
-- Reads an `n × n` matrix from standard input
-- Uses partial pivoting if the diagonal pivot is zero (or near zero)
-- Detects non-invertible matrices and raises an error
-- Prints the inverse matrix and checks the result by printing `A⁻¹ × A`
+- Accepts an `n × n` matrix as input
+- Detects non-invertible (singular) matrices
+- Computes the inverse using NumPy arrays
+- Verifies correctness by computing `A⁻¹ × A`, which should result in the identity matrix
 
 ## Requirements
 - Python 3.13
