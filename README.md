@@ -16,12 +16,12 @@ The same row operations are applied to an identity matrix to produce the inverse
 Install NumPy:
 ```bash
 pip install numpy
+```
 
-
-# How to Run
-
+How to Run
+```bash
 python matrix_revers.py
-
+```
 
 
 # Input Format
@@ -31,12 +31,13 @@ python matrix_revers.py
 2.Enter n rows, each containing n integers separated by spaces
 
 # Example:
+```bash
 enter the rows and cols:
 3
 1 2 3
 0 1 4
 5 6 0
-
+```
 # Output
 
 •Inverse matrix: the computed inverse
