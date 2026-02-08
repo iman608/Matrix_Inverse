@@ -10,7 +10,7 @@ The same row operations are applied to an identity matrix to produce the inverse
 - Prints the inverse matrix and checks the result by printing `A⁻¹ × A`
 
 ## Requirements
-- Python 3.x
+- Python 3.13
 - NumPy
 
 Install NumPy:
